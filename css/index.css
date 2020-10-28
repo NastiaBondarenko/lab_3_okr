@@ -178,7 +178,7 @@
 	height: 106%;
 	transition: 1s;
 	margin-left: 12%;
-	
+
 }
 
 .paralaxes{
@@ -258,7 +258,7 @@
     grid-gap: 0vw;
 }
 
-.social dir{
+.social div{
 	display: grid;
 	grid-template-rows:  1fr ;
     grid-template-columns: 4fr 15fr ;
