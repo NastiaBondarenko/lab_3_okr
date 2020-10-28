@@ -1,0 +1,81 @@
+.line{
+	height: 15px;
+}
+
+.specific p{
+	font-size: 1vh;
+}
+
+.itemMaleMenu{
+		font-size: 1.5vh;
+}	
+
+.itemsMaleMenu :hover{
+	font-size: 1.8vh;
+}
+
+.logoName img{
+	height: 60%;
+}
+
+.plusMaleMenu{
+		font-size: 1.4vh;
+	margin: 4%;  
+}	
+
+.plusesMaleMenu :hover{
+	font-size: 1.6vh;
+}
+
+.clothesMenu ul li {
+	font-size: 1.1vh;
+}	
+
+.input{
+	width: 12%;
+}
+
+.grid{
+	margin-top: 7%;
+    display: grid;
+    grid-template-rows: 4fr 4fr 4fr 4fr ;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 0vw;
+}
+
+.paralaxes{
+	height: 150px;
+}
+
+.headOfFooter h2{
+	font-size: 0.8em;
+}
+
+.butt{
+	height: 45%;
+	font-size: 1.5vh;
+}
+
+.fotCont{
+	font-size: 1.4vh;
+}
+
+.help p{
+	font-size: 1.1vh;
+}
+
+.social dir h3{
+	font-size: 1.3vh;
+}
+
+.social dir img{
+	width: 100%;
+}
+
+.pay p{
+	font-size: 0.7em;
+}
+
+.pay h2{
+	font-size: 1em;
+}

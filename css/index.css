@@ -1,0 +1,309 @@
+.line{
+	width: 100%;
+	background-color: black;
+	height: 30px;
+
+}
+
+.top{
+	position: sticky;
+	top:0;
+}
+
+.icons{
+	height: 80%;
+    margin-top: 0%;
+    margin-right: 0.5%;
+}
+
+.specific{
+	height: 100%;
+	margin-top:1%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.specific p{
+    color: white;
+    font-size: 1.5vh;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+
+.maleMenu{
+	display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.itemsMaleMenu{
+	display: flex;
+    width: 30%;
+    justify-content: left;
+    padding-left: 3%;
+}
+
+.itemsMaleMenu :hover{
+	color:grey;
+	font-size: 2.6vh;
+	 transition: 1s;
+}
+
+.plusesMaleMenu{
+	display: flex;
+    width: 30%;
+    justify-content: flex-end;
+    padding-left: 3%;
+}
+
+.plusesMaleMenu :hover{
+	color:black;
+	font-size: 2.2vh;
+	transition: 1s;
+}
+
+.logoName{
+	width: 40%;
+    display: flex;
+    margin-left: 0%;
+    justify-content: center;
+}
+
+.logoName img{
+	height: 70%;
+}
+
+.itemMaleMenu{
+ 	font-size: 2.4vh;
+    margin: 8%;  
+}
+
+.plusMaleMenu{
+	display: flex;
+	color: grey;
+	font-size: 2vh;
+    margin: 8%;  
+}
+
+.icon4{
+	height: 40%;
+    margin-top: -6%;
+}
+
+.clothesMenu ul {
+	padding:0;
+    margin:0;	
+    list-style: none;
+    position: relative;
+    width: 80%;
+}
+
+.clothesMenu ul li {
+	display:inline-block;
+	margin-left: 2%;
+	font-size: 2.5vh;
+}
+
+.clothesMenu ul ul {
+	margin-top: 1%;
+	column-count: 5;
+	left: 2%;
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 70%;
+    color: black;
+    background-color: white;
+    font-size: 0.5em;
+}
+
+.clothesMenu ul li:hover > ul {
+	display:inherit;
+}
+
+.itemClothesMenu ul li{
+    display: flex;
+    direction: column;
+}						    
+
+.imgInClothesMenu{
+	width: 90%;
+} 
+
+.sale{
+	color: red;
+}
+
+.slides{
+	margin: 20px;
+	height: 200px;
+}
+
+.slide{
+	height: 100%;
+}
+
+.imgSlide{
+	height: 50%;
+	border-radius: 50%;
+}
+
+.grid{
+	margin-top: 4%;
+    display: grid;
+    grid-template-rows: 4fr 4fr 4fr ;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+    grid-gap: 0vw;
+}
+
+.grid div{
+	 margin-top: 5%;
+	 margin-bottom: 25%; 
+    height: 230px;
+}
+
+.grid p{
+	text-align: center;
+	font-size: 2vh;
+}
+
+.ImgGrid{
+    height: 100%;
+    width: 66%;
+    margin-left: 17%;
+
+}
+.grid div :hover{
+	width: 75%;
+	height: 106%;
+	transition: 1s;
+	margin-left: 12%;
+	
+}
+
+.paralaxes{
+	height: 200px;
+}
+
+.parallax {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/parallax.jpg);
+}
+
+.headOfFooter h2{
+	font-size: 1.2em;
+}
+
+.bootoms{
+	height: 40px;
+}
+
+.butt{
+	background-color: white;
+    margin: 0%;
+    float: left;
+    border: 1px solid black;
+    height: 55%;
+    font-size: 2vh;
+}
+
+.bott{
+	float:left;
+	height: 35px;
+	position: sticky;
+	bottom:  0;
+}
+
+.footerContent{
+	width: 100%;
+}
+
+.fotCont{
+	font-size: 1.8vh;
+}
+
+#womenButt, #menButt, #chidButt, #brendButt, #companyButt{
+	background-color: white;
+}
+
+#companyButt{
+	background-color: black;
+	color: white;
+}
+
+.gridFooter{
+	background-color: #e4e4e2;
+    display: grid;
+    grid-template-rows:  1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 0vw;
+}
+
+.help p{
+	font-size: 1.5vh;
+}
+
+.help{
+	    margin-left: 30%;
+}
+
+.social{
+	display: grid;
+	grid-template-rows:  1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr ;
+    grid-gap: 0vw;
+}
+
+.social dir{
+	display: grid;
+	grid-template-rows:  1fr ;
+    grid-template-columns: 4fr 15fr ;
+    grid-gap: 0vw;
+    margin: 1%;
+}
+
+.social dir img{
+	width: 90%;
+}
+
+.social dir h3{
+	font-size: 2.5vh;
+	margin-top: 5%;
+}
+
+.pay p{
+	font-size: 1em;
+}
+
+.pay h2{
+	font-size: 1.3em;
+}
+
+#car{
+	height: 100%;
+	position: absolute;
+}
+
+.input{
+	width: 20%;
+	float: right;
+    margin-top: -2%;
+}
+
+.fixed{
+	position: fixed;
+}
+
+@media only screen and (max-width: 990px){
+	.clothesMenu ul li {
+
+	font-size: 1.4vh;
+	}	
+	.input{
+		width: 17%;
+	}
+}
