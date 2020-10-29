@@ -3,6 +3,8 @@
 const nameId = ['women', 'men', 'child', 'brend', 'company'];
 const buttId = ["womenButt", "menButt", "chidButt", "brendButt", "companyButt"]; 
 
+document.getElementById('women').hidden = true;
+
 const change = (ids) =>{
 	for(let i = 0; i < nameId.length; i++){
 		if(ids == nameId[i]){

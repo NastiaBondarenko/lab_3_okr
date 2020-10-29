@@ -163,7 +163,8 @@
 }
 
 .grid p{
-	text-align: center;
+	margin-left:40%;
+	
 	font-size: 2vh;
 }
 
@@ -173,11 +174,11 @@
     margin-left: 17%;
 
 }
-.grid div :hover{
+.gridElement :hover{
 	width: 75%;
 	height: 106%;
 	transition: 1s;
-	margin-left: 12%;
+
 
 }
 
